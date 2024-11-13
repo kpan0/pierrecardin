@@ -1,0 +1,773 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "164932284171debc64": {
+      "type": "slideshow",
+      "blocks": {
+        "1649322841495b3fb7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/slide.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_background": false,
+            "caption_background_transparency": false,
+            "button1": "",
+            "button1_link": "",
+            "button1_highlight": false,
+            "button2": "",
+            "button2_link": "",
+            "button2_highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "1649322841495b3fb7-0"
+      ],
+      "settings": {
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6
+      }
+    },
+    "1649322906f71a2399": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false
+      }
+    },
+    "1649322912d84da2f1": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<br><br>\n<div align=\"center\">\n<img src=\"https://cdn.shopify.com/s/files/1/0339/5115/4235/files/logo2.jpg?v=1661756871\">\n</div>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16617624455ba4a884": {
+      "type": "featured-text",
+      "settings": {
+        "image": "shopify://shop_images/logo_606e6b82-8bc1-423a-a799-d0d469d0e88f.jpg",
+        "title": "",
+        "content": "<p></p><p></p>",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1649323079bc6b6e68": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "16493230795b4d04a3-0": {
+          "type": "image",
+          "settings": {
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_background": false,
+            "caption_background_transparency": false,
+            "button1": "",
+            "button1_link": "",
+            "button1_highlight": false,
+            "button2": "",
+            "button2_link": "",
+            "button2_highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "16493230795b4d04a3-0"
+      ],
+      "settings": {
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 4
+      }
+    },
+    "16493229353c9925ae": {
+      "type": "featured-text",
+      "settings": {
+        "title": "<p>- Available from Size S to 2XL -</p><p><strong>MADE WITH COMFY STRETCH BREATHABLE COTTON</strong></p><p></p>",
+        "content": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "165105692916848aa8": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 10,
+        "divider_border": false
+      }
+    },
+    "1649322973174c33d5": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<div align=\"center\">\n<a class=\"global-button\" href=\"/collections/period-panty</a>%0A</div>%0A<br><br><br>\"></a>\n</div>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1649394128713bf4f0": {
+      "type": "video",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "autoplay": false,
+        "autoloop": true,
+        "video_dark_overlay": false,
+        "video": "",
+        "mp4": "https://cdn.shopify.com/videos/c/o/v/1a7043b93965491bb842b1c2d74888d6.mp4",
+        "ogv": "https://cdn.shopify.com/videos/c/o/v/1a7043b93965491bb842b1c2d74888d6.mp4",
+        "image": "shopify://shop_images/screenshot.jpg",
+        "display_text_over_video": false,
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_background": false,
+        "caption_background_transparency": false,
+        "button1_label": "Play Video",
+        "button1_link": "",
+        "button1_highlight": false,
+        "button2_label": "",
+        "button2_link": "",
+        "button2_highlight": false
+      }
+    },
+    "16510571981b9080a9": {
+      "type": "divider",
+      "disabled": true,
+      "settings": {
+        "divider_spacing": 25,
+        "divider_border": false
+      }
+    },
+    "1649394343767d1341": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 0,
+        "divider_border": false
+      }
+    },
+    "1649322975afd1da2d": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "collection": "high-waist",
+        "collection_style": "slider",
+        "collection_description": true,
+        "products_per": 2,
+        "products_limit": 2
+      }
+    },
+    "1649323221355ec001": {
+      "type": "slideshow",
+      "blocks": {
+        "1649323221e83d86e2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2type.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_background": false,
+            "caption_background_transparency": false,
+            "button1": "",
+            "button1_link": "",
+            "button1_highlight": false,
+            "button2": "",
+            "button2_link": "",
+            "button2_highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "1649323221e83d86e2-0"
+      ],
+      "settings": {
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6
+      }
+    },
+    "1649323044ae91588e": {
+      "type": "slideshow",
+      "blocks": {
+        "1649323043d0a852d8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/details_cca4cdaa-bcdf-48af-9cfe-99e04d0c6d5c.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_background": false,
+            "caption_background_transparency": false,
+            "button1": "",
+            "button1_link": "",
+            "button1_highlight": false,
+            "button2": "",
+            "button2_link": "",
+            "button2_highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "1649323043d0a852d8-0"
+      ],
+      "settings": {
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6
+      }
+    },
+    "1649323052372872ed": {
+      "type": "slideshow",
+      "blocks": {
+        "16493230526607dfce-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/layerd.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_background": false,
+            "caption_background_transparency": false,
+            "button1": "",
+            "button1_link": "",
+            "button1_highlight": false,
+            "button2": "",
+            "button2_link": "",
+            "button2_highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "16493230526607dfce-0"
+      ],
+      "settings": {
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6
+      }
+    },
+    "164932305906ca0106": {
+      "type": "slideshow",
+      "blocks": {
+        "1649323059b3285ae4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tips.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_background": false,
+            "caption_background_transparency": false,
+            "button1": "",
+            "button1_link": "",
+            "button1_highlight": false,
+            "button2": "",
+            "button2_link": "",
+            "button2_highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "1649323059b3285ae4-0"
+      ],
+      "settings": {
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6
+      }
+    },
+    "16618210936fc21f94": {
+      "type": "featured-text",
+      "settings": {
+        "image": "shopify://shop_images/now_d4b24137-6982-4680-810e-0a9fd40d27eb.jpg",
+        "title": "",
+        "content": "",
+        "text_size": "regular_text",
+        "text_alignment": "align_left",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1661762261dd310e73": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "content": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1661759246b72c6de3": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "16617592464616126f-0": {
+          "type": "image",
+          "settings": {
+            "pretext": "",
+            "title": "FAQ",
+            "subtitle": "",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_background": false,
+            "caption_background_transparency": false,
+            "button1": "",
+            "button1_link": "",
+            "button1_highlight": false,
+            "button2": "",
+            "button2_link": "",
+            "button2_highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "16617592464616126f-0"
+      ],
+      "settings": {
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6
+      }
+    },
+    "165025214746c037ab": {
+      "type": "jsc-faq-1",
+      "blocks": {
+        "1650252147c33deb90-0": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "About The Product"
+          }
+        },
+        "1650252147c33deb90-1": {
+          "type": "content",
+          "settings": {
+            "title": "What are period panties?",
+            "answer": "<p>Period panties are highly absorbent panties, specially designed to replace single-use feminine care products such as sanitary pads and tampons. </p>"
+          }
+        },
+        "1650252147c33deb90-2": {
+          "type": "content",
+          "settings": {
+            "title": "How do period panties work?",
+            "answer": "<p>Our period panties are made with 4 layers of protection, so that you can be your best self even during your menstrual cycle. Each layer serves a purpose. The first layer is made of antibacterial breathable fabric that helps control odour and draws moisture quickly for a dryer feel. This layer is the most noticeable one since it is the layer that touches your skin. The second layer contains a super absorbent material to hold your flow. The third layer is made of leak-proof material to prevent any leakage, while the fourth layer is made of cotton fabric to ensure maximum comfort and breathability for a full day of wear. </p>"
+          }
+        },
+        "1650252147c33deb90-3": {
+          "type": "content",
+          "settings": {
+            "title": "Which period panty is suitable for me?",
+            "answer": "<p>Our period panties come in two different absorbency levels – moderate and heavy.  The moderate absorbency panty is equivalent to one regular pad, two tampons or 18ml flow. It is more suitable for use when there is lighter flow. </p><p>The heavy absorbency panty is equivalent to two regular pads, four tampons or 36ml flow. It is better for heavier flow days. </p>"
+          }
+        },
+        "1650252147c33deb90-5": {
+          "type": "content",
+          "settings": {
+            "title": "What is the recommended lifespan of each period panty and how many will I need for each cycle?",
+            "answer": "<p>Each period panty is made to withstand approximately 40 washes, which should last for about two years. We recommend that you get three to six pieces to use interchangeably for each cycle.</p>"
+          }
+        },
+        "1650252147c33deb90-7": {
+          "type": "content",
+          "settings": {
+            "title": "How long can I wear period panties for?",
+            "answer": "<p>We recommend a maximum of 12 hours of usage each time, so you can choose to wear it day and night. Depending on your  menstrual flow, you may need to change more frequently on heavier flow days. </p>"
+          }
+        },
+        "1650252147c33deb90-6": {
+          "type": "content",
+          "settings": {
+            "title": "Will there be an odour after long hours of wearing the period panty?",
+            "answer": "<p>The antibacterial layer will keep any odour under control, so you can rest assured. However, as mentioned, we recommend a maximum of 12 hours of usage. </p>"
+          }
+        },
+        "8567d9d7-632e-47a6-995a-5d6065181bd5": {
+          "type": "content",
+          "settings": {
+            "title": "Are period panties suitable for people with bladder leaks?",
+            "answer": "<p>Yes. Women who suffer from urinary incontinence can use period panties to contain bladder leakages. It is a quick and convenient solution to avoid any embarrassment caused by unexpected urine leaks. </p>"
+          }
+        },
+        "1650252147c33deb90-4": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "Fit and Care"
+          }
+        },
+        "9f5fef3c-ca3d-4ce9-a2ed-99f58c5b2044": {
+          "type": "content",
+          "settings": {
+            "title": "How do I choose the right size?",
+            "answer": "<p>For the best fit,  you can follow our <a href=\"/pages/fit-care-1\" target=\"_blank\" title=\"Fit & Care\"><span style=\"text-decoration:underline\">panty fit guide</span></a>.  A size chart is available here but if you feel unsure, please visit one of our Pierre Cardin Lingerie stores and seek advice from our friendly lingerie advisors for help. </p>"
+          }
+        },
+        "22c6186a-4134-450e-921f-ae3080987db3": {
+          "type": "content",
+          "settings": {
+            "title": "How do I wash and care for my period panties?",
+            "answer": "<p>Rinse your used period panty under cold water until the water runs clear. Once you remove the residue, you can opt to handwash your panty as usual or toss it into the washing machine in a cold wash with the rest of your laundry. </p><p>Using regular clothes detergent is fine, but do not use softeners or bleach. Tumble dry low or line dry them.</p>"
+          }
+        },
+        "594b717c-5b50-46d2-a82a-acd4935f3c4f": {
+          "type": "content",
+          "settings": {
+            "title": "Will the menstrual stain get onto my clothes if I wash them together with the rest of my laundry?",
+            "answer": "<p>As mentioned, you are required to remove the residue under cold running water until it runs clear. After you have done so, washing them together with your other clothes shouldn’t be a cause for concern. </p>"
+          }
+        },
+        "c4b2cb24-cef8-4c11-b63c-292ac01555d9": {
+          "type": "content",
+          "settings": {
+            "title": "Are period panties hygienic?",
+            "answer": "<p>Yes, they are hygienic. As long as you clean them as instructed, they are not only hygienic but also skin friendly. </p>"
+          }
+        },
+        "29fbce03-f3ee-4214-9d33-5dc28aa0541c": {
+          "type": "content",
+          "settings": {
+            "title": "What is the fabric content of these period panties?",
+            "answer": "<p>The body fabric of each period panty is made up of 95% Cotton and 5% Spandex. For the gusset, the top layer of the material is made up of 100% Polyester that has antibacterial properties  so it can draw moisture away quickly. </p>"
+          }
+        },
+        "4ead1d4d-110d-47c4-aeae-959e83d42873": {
+          "type": "content",
+          "settings": {
+            "title": "How long does it takes to dry each period panty after wash?",
+            "answer": "<p>It takes about half a day to a day to dry after wash. It depends on the weather and climate from where you are staying.</p>"
+          }
+        },
+        "6817ad8d-ea81-46ce-a945-89d9c6620999": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "Other Information"
+          }
+        },
+        "a2e2da46-c95b-4f1c-8edd-20923684503c": {
+          "type": "content",
+          "settings": {
+            "title": "Can I buy period panties at all major Pierre Cardin Lingerie stores?",
+            "answer": "<p>Currently, you can purchase them at selected outlets. </p>"
+          }
+        },
+        "0dd5ca7b-a587-4cc6-af02-2168da4dc8f9": {
+          "type": "content",
+          "settings": {
+            "title": "What is the difference between sanitary panties and period panties?",
+            "answer": "<p>Sanitary panties are made to be worn with sanitary period products like pads or tampons. Essentially, it is an additional layer of protection to prevent leakage. </p><p>Period panties are different as they are made to replace sanitary pads and tampons altogether. Both products have a leak-proof layer but sanitary panties do not have an absorbent layer like period panties do.</p>"
+          }
+        },
+        "21eb6421-1fb8-40f7-8127-863ecc104711": {
+          "type": "content",
+          "settings": {
+            "title": "Are buying period panties more economical than using disposable period products?",
+            "answer": "<p>Yes. Period panties can last approximately two years with frequent wear, which means you won’t have to buy sanitary products every month. Apart from saving money in the long run, period panties are also much more environmentally friendly. Each disposable sanitary pad or tampon takes about 500 to 800 years to decompose completely. So think about how much waste can be reduced if we stop using single-used plastic products for our periods every month! </p>"
+          }
+        },
+        "1650252147c33deb90-8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "1650252147c33deb90-0",
+        "1650252147c33deb90-1",
+        "1650252147c33deb90-2",
+        "1650252147c33deb90-3",
+        "1650252147c33deb90-5",
+        "1650252147c33deb90-7",
+        "1650252147c33deb90-6",
+        "8567d9d7-632e-47a6-995a-5d6065181bd5",
+        "1650252147c33deb90-4",
+        "9f5fef3c-ca3d-4ce9-a2ed-99f58c5b2044",
+        "22c6186a-4134-450e-921f-ae3080987db3",
+        "594b717c-5b50-46d2-a82a-acd4935f3c4f",
+        "c4b2cb24-cef8-4c11-b63c-292ac01555d9",
+        "29fbce03-f3ee-4214-9d33-5dc28aa0541c",
+        "4ead1d4d-110d-47c4-aeae-959e83d42873",
+        "6817ad8d-ea81-46ce-a945-89d9c6620999",
+        "a2e2da46-c95b-4f1c-8edd-20923684503c",
+        "0dd5ca7b-a587-4cc6-af02-2168da4dc8f9",
+        "21eb6421-1fb8-40f7-8127-863ecc104711",
+        "1650252147c33deb90-8"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1649323065579490ad": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "16493230655e583a3e-0": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "About The Product"
+          }
+        },
+        "16493230655e583a3e-1": {
+          "type": "content",
+          "settings": {
+            "title": "What are period panties?",
+            "answer": "<p>Period panties are highly absorbent panties, specially designed to replace single-use feminine care products such as sanitary pads and tampons. </p>"
+          }
+        },
+        "16493230655e583a3e-2": {
+          "type": "content",
+          "settings": {
+            "title": "How do period panties work?",
+            "answer": "<p>Our period panties are made with 4 layers of protection, so that you can be your best self even during your menstrual cycle. Each layer serves a purpose. The first layer is made of antibacterial breathable fabric that helps control odour and draws moisture quickly for a dryer feel. This layer is the most noticeable one since it is the layer that touches your skin. The second layer contains a super absorbent material to hold your flow. The third layer is made of leak-proof material to prevent any leakage, while the fourth layer is made of cotton fabric to ensure maximum comfort and breathability for a full day of wear. </p>"
+          }
+        },
+        "16493230655e583a3e-3": {
+          "type": "content",
+          "settings": {
+            "title": "Which period panty is suitable for me?",
+            "answer": "<p>Our period panties come in two different absorbency levels – moderate and heavy.  The moderate absorbency panty is equivalent to one regular pad, two tampons or 18ml flow. It is more suitable for use when there is lighter flow. </p><p>The heavy absorbency panty is equivalent to two regular pads, four tampons or 36ml flow. It is better for heavier flow days. </p>"
+          }
+        },
+        "16493230655e583a3e-5": {
+          "type": "content",
+          "settings": {
+            "title": "What is the recommended lifespan of each period panty and how many will I need for each cycle?",
+            "answer": "<p>Each period panty is made to withstand approximately 40 washes, which should last for about two years. We recommend that you get three to six pieces to use interchangeably for each cycle.</p>"
+          }
+        },
+        "16493230655e583a3e-6": {
+          "type": "content",
+          "settings": {
+            "title": "How long can I wear period panties for?",
+            "answer": "<p>We recommend a maximum of 12 hours of usage each time, so you can choose to wear it day and night. Depending on your  menstrual flow, you may need to change more frequently on heavier flow days. </p>"
+          }
+        },
+        "16493230655e583a3e-7": {
+          "type": "content",
+          "settings": {
+            "title": "Will there be an odour after long hours of wearing the period panty?",
+            "answer": "<p>The antibacterial layer will keep any odour under control, so you can rest assured. However, as mentioned, we recommend a maximum of 12 hours of usage. </p>"
+          }
+        },
+        "33eefad7-7e0f-4bdb-83a1-57f5366812f2": {
+          "type": "content",
+          "settings": {
+            "title": "Are period panties suitable for people with bladder leaks?",
+            "answer": "<p>Yes. Women who suffer from urinary incontinence can use period panties to contain bladder leakages. It is a quick and convenient solution to avoid any embarrassment caused by unexpected urine leaks. </p>"
+          }
+        },
+        "16493230655e583a3e-4": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "Fit and Care"
+          }
+        },
+        "4d1e2b9f-25b1-4d27-b95b-bbd9c96d14ce": {
+          "type": "content",
+          "settings": {
+            "title": "How do I choose the right size?",
+            "answer": "<p>For the best fit,  you can follow our panty fit guide ( <a href=\"https://pierrecardinlingerie.com/blogs/guides-style/panty-fit-guides\"><span style=\"text-decoration:underline\">https://pierrecardinlingerie.com/blogs/guides-style/panty-fit-guides</span></a>).  A size chart is available here but if you feel unsure, please visit one of our Pierre Cardin Lingerie stores and seek advice from our friendly lingerie advisors for help.</p>"
+          }
+        },
+        "4ed122c9-d85e-43ec-a4f3-08e3548f6a09": {
+          "type": "content",
+          "settings": {
+            "title": "How do I wash and care for my period panties?",
+            "answer": "<p>Rinse your used period panty under cold water until the water runs clear. Once you remove the residue, you can opt to handwash your panty as usual or toss it into the washing machine in a cold wash with the rest of your laundry. </p><p>Using regular clothes detergent is fine, but do not use softeners or bleach. Tumble dry low or line dry them.</p>"
+          }
+        },
+        "c694ac68-de55-4390-b0ce-161a4b6d36e8": {
+          "type": "content",
+          "settings": {
+            "title": "Will the menstrual stain get onto my clothes if I wash them together with the rest of my laundry?",
+            "answer": "<p>As mentioned, you are required to remove the residue under cold running water until it runs clear. After you have done so, washing them together with your other clothes shouldn’t be a cause for concern. </p>"
+          }
+        },
+        "4eeab578-132d-4190-8090-7531c44024f1": {
+          "type": "content",
+          "settings": {
+            "title": "Are period panties hygienic?",
+            "answer": "<p>Yes, they are hygienic. As long as you clean them as instructed, they are not only hygienic but also skin friendly. </p>"
+          }
+        },
+        "e8df834b-b641-428b-b191-6d9d8f1e0338": {
+          "type": "content",
+          "settings": {
+            "title": "What is the fabric content of these period panties?",
+            "answer": "<p>The body fabric of each period panty is made up of 95% Cotton and 5% Spandex. For the gusset, the top layer of the material is made up of 100% Polyester that has antibacterial properties  so it can draw moisture away quickly. </p>"
+          }
+        },
+        "34a9e688-6cf3-4367-a236-0a81eda20a68": {
+          "type": "content",
+          "settings": {
+            "title": "How long does it takes to dry each period panty after wash?",
+            "answer": "<p>It takes about half a day to a day to dry after wash. It depends on the weather and climate from where you are staying.</p>"
+          }
+        },
+        "1c4f3f97-d663-4387-bc2a-79902e9e3681": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "Other Information"
+          }
+        },
+        "cc98c52b-ca58-4f23-8fb4-58511d0bfcff": {
+          "type": "content",
+          "settings": {
+            "title": "Can I buy period panties at all major Pierre Cardin Lingerie stores?",
+            "answer": "<p>Currently, you can purchase them at selected outlets. </p>"
+          }
+        },
+        "2b95cf85-d8fe-42db-9f1d-da8b344aecfe": {
+          "type": "content",
+          "settings": {
+            "title": "What is the difference between sanitary panties and period panties?",
+            "answer": "<p>Sanitary panties are made to be worn with sanitary period products like pads or tampons. Essentially, it is an additional layer of protection to prevent leakage. </p><p>Period panties are different as they are made to replace sanitary pads and tampons altogether. Both products have a leak-proof layer but sanitary panties do not have an absorbent layer like period panties do.</p>"
+          }
+        },
+        "a27d59ad-be63-4180-88cc-f332fa802ebb": {
+          "type": "content",
+          "settings": {
+            "title": "Are buying period panties more economical than using disposable period products?",
+            "answer": "<p>Yes. Period panties can last approximately two years with frequent wear, which means you won’t have to buy sanitary products every month. Apart from saving money in the long run, period panties are also much more environmentally friendly. Each disposable sanitary pad or tampon takes about 500 to 800 years to decompose completely. So think about how much waste can be reduced if we stop using single-used plastic products for our periods every month! </p>"
+          }
+        },
+        "16493230655e583a3e-8": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "16493230655e583a3e-0",
+        "16493230655e583a3e-1",
+        "16493230655e583a3e-2",
+        "16493230655e583a3e-3",
+        "16493230655e583a3e-5",
+        "16493230655e583a3e-6",
+        "16493230655e583a3e-7",
+        "33eefad7-7e0f-4bdb-83a1-57f5366812f2",
+        "16493230655e583a3e-4",
+        "4d1e2b9f-25b1-4d27-b95b-bbd9c96d14ce",
+        "4ed122c9-d85e-43ec-a4f3-08e3548f6a09",
+        "c694ac68-de55-4390-b0ce-161a4b6d36e8",
+        "4eeab578-132d-4190-8090-7531c44024f1",
+        "e8df834b-b641-428b-b191-6d9d8f1e0338",
+        "34a9e688-6cf3-4367-a236-0a81eda20a68",
+        "1c4f3f97-d663-4387-bc2a-79902e9e3681",
+        "cc98c52b-ca58-4f23-8fb4-58511d0bfcff",
+        "2b95cf85-d8fe-42db-9f1d-da8b344aecfe",
+        "a27d59ad-be63-4180-88cc-f332fa802ebb",
+        "16493230655e583a3e-8"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "16493230740c5f697d": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false
+      }
+    },
+    "165120393078927772": {
+      "type": "featured-promotions",
+      "blocks": {
+        "16512039296c6984b7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/grey.jpg",
+            "link": "shopify://pages/fit-care-1",
+            "title": "LEARN ABOUT YOUR RIGHT FIT",
+            "text": "<p>ASPIRES TO PROVIDE WOMEN WITH THE GOOD FIT</p>",
+            "button_label": "PANTY FIT GUIDE"
+          }
+        },
+        "16512039296c6984b7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bg.jpg",
+            "link": "",
+            "title": "",
+            "text": "<p> </p>",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "16512039296c6984b7-0",
+        "16512039296c6984b7-1"
+      ],
+      "settings": {
+        "featured_promos_per_row": 2,
+        "featured_promos_grid": true,
+        "featured_links_animation": "",
+        "feature_style": "square",
+        "promo_text_on_image_enabled": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164932284171debc64",
+    "1649322906f71a2399",
+    "1649322912d84da2f1",
+    "16617624455ba4a884",
+    "1649323079bc6b6e68",
+    "16493229353c9925ae",
+    "165105692916848aa8",
+    "1649322973174c33d5",
+    "1649394128713bf4f0",
+    "16510571981b9080a9",
+    "1649394343767d1341",
+    "1649322975afd1da2d",
+    "1649323221355ec001",
+    "1649323044ae91588e",
+    "1649323052372872ed",
+    "164932305906ca0106",
+    "16618210936fc21f94",
+    "1661762261dd310e73",
+    "1661759246b72c6de3",
+    "165025214746c037ab",
+    "1649323065579490ad",
+    "16493230740c5f697d",
+    "165120393078927772"
+  ]
+}

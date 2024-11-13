@@ -1,0 +1,358 @@
+<script
+  type="application/json"
+  data-section-type="faq"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for block in section.blocks %}
+        {% unless block.type == 'heading' %}
+          {
+            "@type": "Question",
+            "name": "{{ block.settings.title | escape }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{ block.settings.subtitle | strip_html | escape }}"
+            }
+          }{% unless forloop.last %},{% endunless %}
+        {% endunless %}
+      {% endfor %}
+    ]
+  }
+</script>
+
+<section class="section">
+  <a name="pagecontent" id="pagecontent"></a>
+  <div
+    class="
+      container
+      main
+      content
+      has-background
+      has-gutter-enabled
+    "
+  >
+    {% if section.settings.title != blank %}
+      <div
+        class="
+          one-whole
+          column
+          page
+        "
+      >
+        <h2 class="title">
+          {{ section.settings.title | escape }}
+        </h2>
+      </div>
+    {% endif %}
+
+    {% if section.blocks.size > 0 %}
+      {% for block in section.blocks %}
+        {% if block.type == 'image' %}
+          {% assign image = true %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <div
+      class="
+        {% if image == true %}
+          one-half
+        {% else %}
+          one-whole
+        {% endif %}
+        medium-down--one-whole
+        column
+        faq
+        faq__column-1
+      "
+    >
+
+      {% comment %}start - FAQ accordian{% endcomment %}
+      <div class="custom-faq-container">
+        {% if section.blocks.size > 0 %}
+        <div class="tab">
+          {% for block in section.blocks %}
+            {% if block.type == "heading" %}
+              {% if block.settings.faq_title != blank %}
+                {% assign tab_header_title = block.settings.faq_title %}
+                <button class="tablinks" onclick="faqTab(event, 'tab-{{tab_header_title | handleize }}')" {% if forloop.first %} id="defaultOpen" {% endif %}>{{tab_header_title}}</button>
+                {% assign tabArray = tabArray | append: tab_header_title | append:',' %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% comment %}
+          <button class="tablinks" onclick="faqTab(event, 'firstTab')" id="defaultOpen">About The Product</button>
+          <button class="tablinks" onclick="faqTab(event, 'secondTab')">Fit and Care</button>
+          <button class="tablinks" onclick="faqTab(event, 'thirdTab')">Other Information</button>
+          {% endcomment %}
+        </div>
+        {% assign splitTab = tabArray | split: ',' %}
+
+        {%- for x in splitTab -%}
+          <div id="tab-{{x | handleize }}" class="tabcontent">
+            {% for block in section.blocks %}
+              {% if block.type == "heading" %}
+                {% if block.settings.faq_title != blank %}
+                  {% assign tab1_title = block.settings.faq_title %}
+                {% endif %}
+              {% endif %}
+
+              {%- if tab1_title == x -%}
+                {% if block.settings.title != blank %}
+                <div class="faqAccordion {{tab1_title}}">
+                  <dt>
+                    <button
+                      type="button"
+                      aria-controls="panel-01"
+                      aria-expanded="true"
+                    >
+                      {{ block.settings.title }}
+                    </button>
+                  </dt>
+                  <dd id="panel-01" aria-hidden="false">
+                    {{ block.settings.answer }}
+                  </dd>
+                </div>
+                {%- endif -%}
+              {% endif %}
+            {% endfor %}
+          </div>
+        {%- endfor -%}
+
+        {% endif %}
+      </div>
+      {% comment %}end - FAQ accordian{% endcomment %}
+
+      {% comment %} original accordian
+      {% if section.blocks.size > 0 %}
+        <dl class="faqAccordion">
+          {% for block in section.blocks %}
+            {% if block.type == "heading" %}
+              {% if block.settings.faq_title != blank %}
+                <h2 class="title faq--heading">
+                  {{ block.settings.faq_title }}
+                </h2>
+              {% endif %}
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <dt>
+                <button
+                  type="button"
+                  aria-controls="panel-01"
+                  aria-expanded="true"
+                >
+                  {{ block.settings.title }}
+                </button>
+              </dt>
+              <dd id="panel-01" aria-hidden="false">
+                {{ block.settings.answer }}
+              </dd>
+            {% endif %}
+          {% endfor %}
+        </dl>
+      {% endif %}{% endcomment %}
+    </div>
+
+
+    {% if section.blocks.size > 0 %}
+      {% for block in section.blocks %}
+        {% if block.type == 'image' %}
+          <div
+            class="
+              one-half
+              medium-down--one-whole
+              column
+              faq
+              faq--image
+              faq__column-2
+            "
+          >
+            {% if block.settings.image != blank %}
+              {%
+                render 'image-element',
+                image: block.settings.image,
+                alt: block.settings.image.alt
+              %}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</section>
+<script>
+function faqTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<style>
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  //background-color: inherit;
+  background-color:#c5b7d7;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  transition: 0.3s;
+  font-size: 17px;
+  border: 1px solid #b3b3cc;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #e0e0eb;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #b3b3cc;
+}
+
+</style>
+{% schema %}
+{
+  "name": "Custom FAQ",
+  "class": "shopify-section--faq FAQ jsFAQ",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Custom FAQ"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Frequently Asked Question",
+      "type": "content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Provide the answer to the question here.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Heading",
+      "type": "heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "faq_title",
+          "label": "Heading",
+          "default": "Section heading"
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "type": "image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1000 x 1000px recommended"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom FAQ",
+      "category": "Store information",
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "image",
+          "settings": {
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [
+    "index",
+    "product",
+    "page"
+  ]
+}
+
+{% endschema %}
